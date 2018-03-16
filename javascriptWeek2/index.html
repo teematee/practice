@@ -1,0 +1,31 @@
+<html>
+    <head>
+    
+    </head>
+    <body align= 'center'>
+        <p> To be changed by javascript </p>
+        <form>
+       
+           Use Email <input type="radio" name="signupstyle" value="use_email" onclick="showField('email')">
+            Use Phone <input type="radio" name="signupstyle" value="use_phone" onclick="showField('phone')">
+           <br>
+        <div id="email_div">
+           Email <input type="email" name="my_email" id="my_email" >
+            <br>
+         </div>
+        <div id="phone_div">
+             Phone <input type="tel" name="my_phone" id="my_phone" >
+            <br>
+        </div>
+        <div id="pword_div">
+            Password <input type="password" name="pwd" id="pwd" >
+            <br>
+        </div>
+            <button onclick=signin()>submit</button>
+        </form>
+        <script src="script.js">
+            
+        </script>
+    </body>
+
+</html>
